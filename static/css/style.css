@@ -56,6 +56,12 @@ body {
     list-style-image: url("../img/list.svg");
 }
 
+.testimonial li::marker {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
 .person img {
     height: 100px;
     width: 100px;
