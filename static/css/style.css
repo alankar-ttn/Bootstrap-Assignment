@@ -65,6 +65,15 @@ body {
     font-size: smaller;
 }
 
+footer {
+    background: #dadada;
+}
+
+footer ul {
+    list-style-image: url("../img/list-right.svg");
+    font-size: small;
+}
+
 @media (max-width: 768px) {
     .project {
         width: auto;
